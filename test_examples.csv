@@ -1,0 +1,626 @@
+title,abstract
+FDR control with adaptive procedures and FDR monotonicity,"The steep rise in availability and usage of high-throughput technologies in
+biology brought with it a clear need for methods to control the False Discovery
+Rate (FDR) in multiple tests. Benjamini and Hochberg (BH) introduced in 1995 a
+simple procedure and proved that it provided a bound on the expected value,
+$\mathit{FDR}\leq q$. Since then, many authors tried to improve the BH bound,
+with one approach being designing adaptive procedures, which aim at estimating
+the number of true null hypothesis in order to get a better FDR bound. Our two
+main rigorous results are the following: (i) a theorem that provides a bound on
+the FDR for adaptive procedures that use any estimator for the number of true
+hypotheses ($m_0$), (ii) a theorem that proves a monotonicity property of
+general BH-like procedures, both for the case where the hypotheses are
+independent. We also propose two improved procedures for which we prove FDR
+control for the independent case, and demonstrate their advantages over several
+available bounds, on simulated data and on a large number of gene expression
+data sets. Both applications are simple and involve a similar amount of
+computation as the original BH procedure. We compare the performance of our
+proposed procedures with BH and other procedures and find that in most cases we
+get more power for the same level of statistical significance."
+Inferring the Composition of a Trader Population in a Financial Market,"We discuss a method for predicting financial movements and finding pockets of
+predictability in the price-series, which is built around inferring the
+heterogeneity of trading strategies in a multi-agent trader population. This
+work explores extensions to our previous framework (arXiv:physics/0506134).
+Here we allow for more intelligent agents possessing a richer strategy set, and
+we no longer constrain the estimate for the heterogeneity of the agents to a
+probability space. We also introduce a scheme which allows the incorporation of
+models with a wide variety of agent types, and discuss a mechanism for the
+removal of bias from relevant parameters."
+"Cooling and heating by adiabatic magnetization in the
+  Ni$_{50}$Mn$_{34}$In$_{16}$ magnetic shape memory alloy","We report on measurements of the adiabatic temperature change in the inverse
+magnetocaloric Ni$_{50}$Mn$_{34}$In$_{16}$ alloy. It is shown that this alloy
+heats up with the application of a magnetic field around the Curie point due to
+the conventional magnetocaloric effect. In contrast, the inverse magnetocaloric
+effect associated with the martensitic transition results in the unusual
+decrease of temperature by adiabatic magnetization. We also provide
+magnetization and specific heat data which enable to compare the measured
+temperature changes to the values indirectly computed from thermodynamic
+relationships. Good agreement is obtained for the conventional effect at the
+second-order paramagnetic-ferromagnetic phase transition. However, at the first
+order structural transition the measured values at high fields are lower than
+the computed ones. Irreversible thermodynamics arguments are given to show that
+such a discrepancy is due to the irreversibility of the first-order martensitic
+transition."
+Multidimensional Quasi-Monte Carlo Malliavin Greeks,"We investigate the use of Malliavin calculus in order to calculate the Greeks
+of multidimensional complex path-dependent options by simulation. For this
+purpose, we extend the formulas employed by Montero and Kohatsu-Higa to the
+multidimensional case. The multidimensional setting shows the convenience of
+the Malliavin Calculus approach over different techniques that have been
+previously proposed. Indeed, these techniques may be computationally expensive
+and do not provide flexibility for variance reduction. In contrast, the
+Malliavin approach exhibits a higher flexibility by providing a class of
+functions that return the same expected value (the Greek) with different
+accuracies. This versatility for variance reduction is not possible without the
+use of the generalized integral by part formula of Malliavin Calculus. In the
+multidimensional context, we find convenient formulas that permit to improve
+the localization technique, introduced in Fourni\'e et al and reduce both the
+computational cost and the variance. Moreover, we show that the parameters
+employed for variance reduction can be obtained \textit{on the flight} in the
+simulation. We illustrate the efficiency of the proposed procedures, coupled
+with the enhanced version of Quasi-Monte Carlo simulations as discussed in
+Sabino, for the numerical estimation of the Deltas of call, digital Asian-style
+and Exotic basket options with a fixed and a floating strike price in a
+multidimensional Black-Scholes market."
+"Boundary triplets and M-functions for non-selfadjoint operators, with
+  applications to elliptic PDEs and block operator matrices","Starting with an adjoint pair of operators, under suitable abstract versions
+of standard PDE hypotheses, we consider the Weyl M-function of extensions of
+the operators. The extensions are determined by abstract boundary conditions
+and we establish results on the relationship between the M-function as an
+analytic function of a spectral parameter and the spectrum of the extension. We
+also give an example where the M-function does not contain the whole spectral
+information of the resolvent, and show that the results can be applied to
+elliptic PDEs where the M-function corresponds to the Dirichlet to Neumann map."
+A state-space mixed membership blockmodel for dynamic network tomography,"In a dynamic social or biological environment, the interactions between the
+actors can undergo large and systematic changes. In this paper we propose a
+model-based approach to analyze what we will refer to as the dynamic tomography
+of such time-evolving networks. Our approach offers an intuitive but powerful
+tool to infer the semantic underpinnings of each actor, such as its social
+roles or biological functions, underlying the observed network topologies. Our
+model builds on earlier work on a mixed membership stochastic blockmodel for
+static networks, and the state-space model for tracking object trajectory. It
+overcomes a major limitation of many current network inference techniques,
+which assume that each actor plays a unique and invariant role that accounts
+for all its interactions with other actors; instead, our method models the role
+of each actor as a time-evolving mixed membership vector that allows actors to
+behave differently over time and carry out different roles/functions when
+interacting with different peers, which is closer to reality. We present an
+efficient algorithm for approximate inference and learning using our model; and
+we applied our model to analyze a social network between monks (i.e., the
+Sampson's network), a dynamic email communication network between the Enron
+employees, and a rewiring gene interaction network of fruit fly collected
+during its full life cycle. In all cases, our model reveals interesting
+patterns of the dynamic roles of the actors."
+"Limited resources and evolutionary learning may help to understand the
+  mistimed reproduction in birds caused by climate change","We present an agent-based model inspired by the Evolutionary Minority Game
+(EMG), albeit strongly adapted to the case of competition for limited resources
+in ecology. The agents in this game become able, after some time, to predict
+the a priori best option as a result of an evolution-driven learning process.
+We show that a self-segregated social structure can emerge from this process,
+i.e., extreme learning strategies are always favoured while intermediate
+learning strategies tend to die out. This result may contribute to
+understanding some levels of organization and cooperative behaviour in
+ecological and social systems. We use the ideas and results reported here to
+discuss an issue of current interest in ecology: the mistimings in egg laying
+observed for some species of bird as a consequence of their slower rate of
+adaptation to climate change in comparison with that shown by their prey. Our
+model supports the hypothesis that habitat-specific constraints could explain
+why different populations are adapting differently to this situation, in
+agreement with recent experiments."
+"Fusion of finite set distributions: Pointwise consistency and global
+  cardinality","A recent trend in distributed multi-sensor fusion is to use random finite set
+filters at the sensor nodes and fuse the filtered distributions algorithmically
+using their exponential mixture densities (EMDs). Fusion algorithms which
+extend the celebrated covariance intersection and consensus based approaches
+are such examples. In this article, we analyse the variational principle
+underlying EMDs and show that the EMDs of finite set distributions do not
+necessarily lead to consistent fusion of cardinality distributions. Indeed, we
+demonstrate that these inconsistencies may occur with overwhelming probability
+in practice, through examples with Bernoulli, Poisson and independent
+identically distributed (IID) cluster processes. We prove that pointwise
+consistency of EMDs does not imply consistency in global cardinality and vice
+versa. Then, we redefine the variational problems underlying fusion and provide
+iterative solutions thereby establishing a framework that guarantees
+cardinality consistent fusion."
+Streaming motion in Leo I,"Whether a dwarf spheroidal galaxy is in equilibrium or being tidally
+disrupted by the Milky Way is an important question for the study of its dark
+matter content and distribution. This question is investigated using 328 recent
+observations from the dwarf spheroidal Leo I. For Leo I, tidal disruption is
+detected, at least for stars sufficiently far from the center, but the effect
+appears to be quite modest. Statistical tools include isotonic and split point
+estimators, asymptotic theory, and resampling methods."
+Incentives and Efficiency in Constrained Allocation Mechanisms,"We study private-good allocation under general constraints. Several prominent examples are special cases, including house allocation, roommate matching, social choice, and multiple assignment. Every individually strategy-proof and Pareto efficient two-agent mechanism is a ""local dictatorship."" Every group strategy-proof N-agent mechanism has two-agent marginal mechanisms that are local dictatorships. These results yield new characterizations and unifying insights for known characterizations. We find all group strategy-proof and Pareto efficient mechanisms for the roommates problem. We give a related result for multiple assignment. We prove the Gibbard-Satterthwaite Theorem and give a partial converse. We also apply our characterization to task allocation and network regulation problems."
+Approximating the marginal likelihood in mixture models,"In Chib (1995), a method for approximating marginal densities in a Bayesian
+setting is proposed, with one proeminent application being the estimation of
+the number of components in a normal mixture. As pointed out in Neal (1999) and
+Fruhwirth-Schnatter (2004), the approximation often fails short of providing a
+proper approximation to the true marginal densities because of the well-known
+label switching problem (Celeux et al., 2000). While there exist other
+alternatives to the derivation of approximate marginal densities, we reconsider
+the original proposal here and show as in Berkhof et al. (2003) and Lee et al.
+(2008) that it truly approximates the marginal densities once the label
+switching issue has been solved."
+Generalized functions as sequence spaces with ultranorms,"We review our recent formulation of Colombeau type algebras as Hausdorff
+sequence spaces with ultranorms, defined by sequences of exponential weights.
+We extend previous results and give new perspectives related to echelon type
+spaces, possible generalisations, asymptotic algebras, concepts of association,
+and applications thereof."
+"Efficient stochastic sampling of first-passage times with applications
+  to self-assembly simulations","Models of reaction chemistry based on the stochastic simulation algorithm
+(SSA) have become a crucial tool for simulating complicated biological reaction
+networks due to their ability to handle extremely complicated reaction networks
+and to represent noise in small-scale chemistry. These methods can, however,
+become highly inefficient for stiff reaction systems, those in which different
+reaction channels operate on widely varying time scales. In this paper, we
+develop two methods for accelerating sampling in SSA models: an exact method
+and a scheme allowing for sampling accuracy up to any arbitrary error bound.
+Both methods depend on analysis of the eigenvalues of continuous time Markov
+model graphs that define the behavior of the SSA. We demonstrate these methods
+for the specific application of sampling breakage times for multiply-connected
+bond networks, a class of stiff system important to models of self-assembly
+processes. We show theoretically and empirically that our eigenvalue methods
+provide substantially reduced sampling times for a wide range of network
+breakage models. These techniques are also likely to have broad use in
+accelerating SSA models so as to apply them to systems and parameter ranges
+that are currently computationally intractable."
+"Design of a Three-Axis Isotropic Parallel Manipulator for Machining
+  Applications: The Orthoglide","The orthoglide is a 3-DOF parallel mechanism designed at IRCCyN for machining
+applications. It features three fixed parallel linear joints which are mounted
+orthogonally and a mobile platform which moves in the Cartesian x-y-z space
+with fixed orientation. The orthoglide has been designed as function of a
+prescribed Cartesian workspace with prescribed kinetostatic performances. The
+interesting features of the orthoglide are a regular Cartesian workspace shape,
+uniform performances in all directions and good compactness. A small-scale
+prototype of the orthoglide under development is presented at the end of this
+paper."
+"Generalized sqrt(epsilon)-law. The role of unphysical source terms in
+  resonance line polarization transfer and its importance as an additional test
+  of NLTE radiative transfer codes","Context. A derivation of a generalized sqrt(epsilon)-law for nonthermal
+collisional rates of excitation by charged perturbers is presented. Aims. Aim
+of this paper is to find a more general analytical expression for a surface
+value of the source function which can be used as an addtional tool for
+verification of the non-LTE radiative transfer codes. Methods. Under the impact
+approximation hypothesis, static, one-dimensional, plane-parallel atmosphere,
+constant magnetic field of arbitrary strength and direction, two-level atom
+model with unpolarized lower level and stimulated emission neglected, we
+introduce the unphysical terms into the equations of statistical equilibrium
+and solve the appropriate non-LTE integral equations. Results. We derive a new
+analytical condition for the surface values of the source function components
+expressed in the basis of irreducible spherical tensors."
+Interplay of Probabilistic Shaping and the Blind Phase Search Algorithm,"Probabilistic shaping (PS) is a promising technique to approach the Shannon
+limit using typical constellation geometries. However, the impact of PS on the
+chain of signal processing algorithms of a coherent receiver still needs
+further investigation. In this work we study the interplay of PS and phase
+recovery using the blind phase search (BPS) algorithm, which is widely used in
+optical communications systems. We first investigate a supervised phase search
+(SPS) algorithm as a theoretical upper bound on the BPS performance, assuming
+perfect decisions. It is shown that PS influences the SPS algorithm, but its
+impact can be alleviated by moderate noise rejection window sizes. On the other
+hand, BPS is affected by PS even for long windows because of correlated
+erroneous decisions in the phase recovery scheme. The simulation results also
+show that the capacity-maximizing shaping is near to the BPS worst-case
+situation for square-QAM constellations, causing potential implementation
+penalties."
+"Absolute Galois acts faithfully on the components of the moduli space of
+  surfaces: A Belyi-type theorem in higher dimension","Given an object over the algebraic closure Qbar of Q, there is often no
+reason for invariants of the corresponding holomorphic object to be preserved
+by the absolute Galois group Gal(Qbar/Q), and in general this is not true,
+although it is sometimes surprising to observe in practice. The case of covers
+of the projective line branched only over the points 0, 1, and infinity,
+through Belyi's theorem, leads to Grothendieck's dessins d'enfants program for
+understanding the absolute Galois group through its faithful action on such
+covers. This note is motivated by Catanese's question about a
+higher-dimensional analogue: does the absolute Galois group act faithfully on
+the deformation equivalence classes of smooth surfaces? (These equivalence
+classes are of course by definition the strongest deformation invariants.) We
+give a short proof of a weaker result: the absolute Galois group acts
+faithfully on the irreducible components of the moduli space of smooth surfaces
+(of general type, canonically polarized). Bauer, Catanese, and Grunewald have
+recently answered Catanese's original question using a different construction."
+Cantilever-Based Biosensors in CMOS Technology,"Single-chip CMOS-based biosensors that feature microcantilevers as transducer
+elements are presented. The cantilevers are functionalized for the capturing of
+specific analytes, e.g., proteins or DNA. The binding of the analyte changes
+the mechanical properties of the cantilevers such as surface stress and
+resonant frequency, which can be detected by an integrated Wheatstone bridge.
+The monolithic integrated readout allows for a high signal-to-noise ratio,
+lowers the sensitivity to external interference and enables autonomous device
+operation."
+Driven activation versus thermal activation,"Activated dynamics in a glassy system undergoing steady shear deformation is
+studied by numerical simulations. Our results show that the external driving
+force has a strong influence on the barrier crossing rate, even though the
+reaction coordinate is only weakly coupled to the nonequilibrium system. This
+""driven activation"" can be quantified by introducing in the Arrhenius
+expression an effective temperature, which is close to the one determined from
+the fluctuation-dissipation relation. This conclusion is supported by
+analytical results for a simplified model system."
+"The Tropospheric Scintillation Prediction based on measured data for
+  earth-to-satellite link for Bangladeshi climatic condition","The performance of earth-to-satellite link largely depends on various
+environmental factors like rain, fog, cloud, and atmospheric effects like
+ionospheric and tropospheric scintillation. In this paper, the tropospheric
+scintillation of Bangladesh, a subtropical country, is predicted based on
+measured climatic parameters, like relative humidity, temperature. In this
+prediction, ITU scintillation model are used. Four major cities, named Dhaka,
+Chittagong, Rajshahi and Sylhet, of Bangladesh are selected for prediction of
+scintillation. From the simulation result, Rajshahi is found to be the most
+badly affected region by the scintillation fade depth (SFD), which is followed
+by Chittagong and the SFD is minimum in Dhaka and Sylhet. The difference in
+SFDs among the considered cities does not vary heavily. It is also found that
+the SFD varies from 3 dB to 13 dB depending on the frequency in used. Moreover,
+higher scintillation is found in rainy season of Bangladesh. During this
+period, the scintillation becomes double of the average figure."
+Hebbian Crosstalk Prevents Nonlinear Unsupervised Learning,"Learning is thought to occur by localized, experience-induced changes in the
+strength of synaptic connections between neurons. Recent work has shown that
+activity-dependent changes at one connection can affect changes at others
+(crosstalk). We studied the role of such crosstalk in nonlinear Hebbian
+learning using a neural network implementation of Independent Components
+Analysis (ICA). We find that there is a sudden qualitative change in the
+performance of the network at a critical crosstalk level and discuss the
+implications of this for nonlinear learning from higher-order correlations in
+the neocortex."
+"Diffuse to fuse EEG spectra -- intrinsic geometry of sleep dynamics for
+  classification","We propose a novel algorithm for sleep dynamics visualization and automatic
+annotation by applying diffusion geometry based sensor fusion algorithm to fuse
+spectral information from two electroencephalograms (EEG). The diffusion
+geometry approach helps organize the nonlinear dynamical structure hidden in
+the EEG signal. The visualization is achieved by the nonlinear dimension
+reduction capability of the chosen diffusion geometry algorithms. For the
+automatic annotation purpose, the {support vector machine} is trained to
+predict the sleep stage. The prediction performance is validated on a publicly
+available benchmark database, Physionet Sleep-EDF [extended] SC$^*$ {(SC =
+Sleep Cassette)} and ST$^*$ {(ST = Sleep Telemetry)}, with the
+leave-one-subject-out cross validation. When we have a single EEG channel
+(Fpz-Cz), the overall accuracy, macro F1 and Cohen's kappa achieve
+$82.72\%$,$75.91\%$ and $76.1\%$ respectively in Sleep-EDF SC$^*$ and
+$78.63\%$, $73.58\%$ and $69.48\%$ in Sleep-EDF ST$^*$. This performance is
+compatible {with} the state-of-the-art results. When we have two EEG channels
+(Fpz-Cz and Pz-Oz), the overall accuracy, macro F1 and Cohen's kappa achieve
+$84.44\%$,$78.25\%$ and $78.36\%$ respectively in Sleep-EDF SC$^*$ and
+$79.05\%$, $74.73\%$ and $70.31\%$ in Sleep-EDF ST$^*$. The results suggest the
+potential of the proposed algorithm in practical applications."
+"A Spatial-Spectral Interference Model for Millimeter Wave 5G
+  Applications","The potential of the millimeter wave (mmWave) band in meeting the ever
+growing demand for high data rate and capacity in emerging fifth generation
+(5G) wireless networks is well-established. Since mmWave systems are expected
+to use highly directional antennas with very focused beams to overcome severe
+pathloss and shadowing in this band, the nature of signal propagation in mmWave
+wireless networks may differ from current networks. One factor that is
+influenced by such propagation characteristics is the interference behavior,
+which is also impacted by simultaneous use of the unlicensed portion of the
+spectrum by multiple users. Therefore, considering the propagation
+characteristics in the mmWave band, we propose a spatial-spectral interference
+model for 5G mmWave applications, in the presence of Poisson field of blockages
+and interferers operating in licensed and unlicensed mmWave spectrum.
+Consequently, the average bit error rate of the network is calculated.
+Simulation is also carried out to verify the outcomes of the paper."
+"Evolution of the genetic code. From the CG- to the CGUA-alphabet, from
+  RNA double helix to DNA","A hypothesis of the evolution of the genetic code is proposed, the leading
+mechanism of which is the nucleotide spontaneous damage leading to
+AT-enrichment of the genome. The hypothesis accounts for stability of the
+genetic code towards point mutations, the presence of code dialects, emergence
+of stop codons, emergence of the DNA double helix and the symmetry of the
+genetic code table. The assumption of the originally triplet structure of the
+genetic code has been substantiated. A hypothesis concerning the primary
+structure of the first gene and the first protein has been proposed."
+"Exploring the Encoding Layer and Loss Function in End-to-End Speaker and
+  Language Recognition System","In this paper, we explore the encoding/pooling layer and loss function in the
+end-to-end speaker and language recognition system. First, a unified and
+interpretable end-to-end system for both speaker and language recognition is
+developed. It accepts variable-length input and produces an utterance level
+result. In the end-to-end system, the encoding layer plays a role in
+aggregating the variable-length input sequence into an utterance level
+representation. Besides the basic temporal average pooling, we introduce a
+self-attentive pooling layer and a learnable dictionary encoding layer to get
+the utterance level representation. In terms of loss function for open-set
+speaker verification, to get more discriminative speaker embedding, center loss
+and angular softmax loss is introduced in the end-to-end system. Experimental
+results on Voxceleb and NIST LRE 07 datasets show that the performance of
+end-to-end learning system could be significantly improved by the proposed
+encoding layer and loss function."
+E-commerce in Hungary: A Market Analysis,"E-commerce is on the rise in Hungary, with significantly growing numbers of
+customers shopping online. This paper aims to identify the direct and indirect
+drivers of the double-digit growth rate, including the related macroeconomic
+indicators and the Digital Economy and Society Index (DESI). Moreover, this
+study provides a deep insight into industry trends and outlooks, including high
+industry concentration and top industrial players. It also draws the profile of
+the typical online shopper and the dominant characteristics of online
+purchases. Development of e-commerce is robust, but there is still plenty of
+potential for growth and progress in Hungary."
+Life at the front of an expanding population,"Recent microbial experiments suggest that enhanced genetic drift at the
+frontier of a two-dimensional range expansion can cause genetic sectoring
+patterns with fractal domain boundaries. Here, we propose and analyze a simple
+model of asexual biological evolution at expanding frontiers to explain these
+neutral patterns and predict the effect of natural selection. Our model
+attributes the observed gradual decrease in the number of sectors at the
+leading edge to an unbiased random walk of sector boundaries. Natural selection
+introduces a deterministic bias in the wandering of domain boundaries that
+renders beneficial mutations more likely to escape genetic drift and become
+established in a sector. We find that the opening angle of those sectors and
+the rate at which they become established depend sensitively on the selective
+advantage of the mutants. Deleterious mutations, on the other hand, are not
+able to establish a sector permanently. They can, however, temporarily ""surf""
+on the population front, and thereby reach unusual high frequencies. As a
+consequence, expanding frontiers are susceptible to deleterious mutations as
+revealed by the high fraction of mutants at mutation-selection balance.
+Numerically, we also determine the condition at which the wild type is lost in
+favor of deleterious mutants (genetic meltdown) at a growing front. Our
+prediction for this error threshold differs qualitatively from existing
+well-mixed theories, and sets tight constraints on sustainable mutation rates
+for populations that undergo frequent range expansions."
+"Homogenized spectral problems for exactly solvable operators:
+  asymptotics of polynomial eigenfunctions","Consider a homogenized spectral pencil of exactly solvable linear
+differential operators $T_{\la}=\sum_{i=0}^k Q_{i}(z)\la^{k-i}\frac
+{d^i}{dz^i}$, where each $Q_{i}(z)$ is a polynomial of degree at most $i$ and
+$\la$ is the spectral parameter. We show that under mild nondegeneracy
+assumptions for all sufficiently large positive integers $n$ there exist
+exactly $k$ distinct values $\la_{n,j}$, $1\le j\le k$, of the spectral
+parameter $\la$ such that the operator $T_{\la}$ has a polynomial eigenfunction
+$p_{n,j}(z)$ of degree $n$. These eigenfunctions split into $k$ different
+families according to the asymptotic behavior of their eigenvalues. We
+conjecture and prove sequential versions of three fundamental properties: the
+limits $\Psi_{j}(z)=\lim_{n\to\infty} \frac{p_{n,j}'(z)}{\la_{n,j}p_{n,j}(z)}$
+exist, are analytic and satisfy the algebraic equation $\sum_{i=0}^k Q_{i}(z)
+\Psi_{j}^i(z)=0$ almost everywhere in $\bCP$. As a consequence we obtain a
+class of algebraic functions possessing a branch near $\infty\in \bCP$ which is
+representable as the Cauchy transform of a compactly supported probability
+measure."
+Decentralized Pure Exchange Processes on Networks,"We define a class of pure exchange Edgeworth trading processes that under
+minimal assumptions converge to a stable set in the space of allocations, and
+characterise the Pareto set of these processes. Choosing a specific process
+belonging to this class, that we define fair trading, we analyse the trade
+dynamics between agents located on a weighted network. We determine the
+conditions under which there always exists a one-to-one map between the set of
+networks and the set of limit points of the dynamics. This result is used to
+understand what is the effect of the network topology on the trade dynamics and
+on the final allocation. We find that the positions in the network affect the
+distribution of the utility gains, given the initial allocations"
+"New Organic thermally stable materials for optoelectronics devices - A
+  linear spectroscopy study","Thermally stable polymers have attracted a lot of interest due to their
+potential use as the active component in electronic, optical and optoelectronic
+applications, such as light-emitting diodes, light emitting electrochemical
+cells, photodiodes, photovoltaic cells, field effect transistors, optocouplers
+and optically pumped lasers in solution and solid state.We report results of
+investigations into the use of thermal treatment of poly(p-phenylene vinylene)
+(PPV) films grown on a variety of substrates (quartz and glass). Film
+thickness, morphology and structural properties were investigated by a range of
+techniques in particular: atomic force microscope - AFM, DEKTAK method,
+Ellipsometry and UV-VIS spectroscopy."
+The 10-rotation Periodicity in Sunspot Areas,"I study the sunspot area fluctuations over the epoch of 12 solar cycles
+(12-23). Lately, I found three significant quasi-periodicities at 10, 17 and 23
+solar rotations, but two longer periods could be treated as subharmonics of the
+10-rotation period. Thus, I search this period during the low- and the
+high-activity periods of each solar cycles. Because of the N-S asymmetry I
+consider each solar hemisphere separately. The skewness of each fluctuation
+probability distribution suggests that the positive and the negative
+fluctuations could be are examined separately. To avoid the problem when a few
+strong fluctuations could create an auto-correlation or a wavelet peak, I also
+analyse the transformations of fluctuations for which the amplitudes at the
+high- and the low-activity periods are almost the same. The auto-correlation
+and the wavelet analyses show that the 10-rotation period is mainly detected
+during the high-activity periods, but it also exists during a few low-activity
+periods."
+Flexible Mixture Priors for Large Time-varying Parameter Models,"Time-varying parameter (TVP) models often assume that the TVPs evolve
+according to a random walk. This assumption, however, might be questionable
+since it implies that coefficients change smoothly and in an unbounded manner.
+In this paper, we relax this assumption by proposing a flexible law of motion
+for the TVPs in large-scale vector autoregressions (VARs). Instead of imposing
+a restrictive random walk evolution of the latent states, we carefully design
+hierarchical mixture priors on the coefficients in the state equation. These
+priors effectively allow for discriminating between periods where coefficients
+evolve according to a random walk and times where the TVPs are better
+characterized by a stationary stochastic process. Moreover, this approach is
+capable of introducing dynamic sparsity by pushing small parameter changes
+towards zero if necessary. The merits of the model are illustrated by means of
+two applications. Using synthetic data we show that our approach yields precise
+parameter estimates. When applied to US data, the model reveals interesting
+patterns of low-frequency dynamics in coefficients and forecasts well relative
+to a wide range of competing models."
+"Electromagnetic structure and weak decay of meson K in a light-front
+  QCD-inspired","The kaon electromagnetic (e.m.) form factor is reviewed considering a
+light-front constituent quark model. In this approach, it is discussed the
+relevance of the quark-antiquark pair terms for the full covariance of the e.m.
+current. It is also verified, by considering a QCD dynamical model, that a good
+agreement with experimental data can be obtained for the kaon weak decay
+constant once a probability of about 80% of the valence component is taken into
+account."
+Shelf space strategy in long-tail markets,"The Internet is known to have had a powerful impact on on-line retailer
+strategies in markets characterised by long-tail distribution of sales. Such
+retailers can exploit the long tail of the market, since they are effectively
+without physical limit on the number of choices on offer. Here we examine two
+extensions of this phenomenon. First, we introduce turnover into the long-tail
+distribution of sales. Although over any given period such as a week or a
+month, the distribution is right-skewed and often power law distributed, over
+time there is considerable turnover in the rankings of sales of individual
+products. Second, we establish some initial results on the implications for
+shelf-space strategy of physical retailers in such markets."
+Cognitive Interference Channels with Confidential Messages,"The cognitive interference channel with confidential messages is studied.
+Similarly to the classical two-user interference channel, the cognitive
+interference channel consists of two transmitters whose signals interfere at
+the two receivers. It is assumed that there is a common message source (message
+1) known to both transmitters, and an additional independent message source
+(message 2) known only to the cognitive transmitter (transmitter 2). The
+cognitive receiver (receiver 2) needs to decode both messages, while the
+non-cognitive receiver (receiver 1) should decode only the common message.
+Furthermore, message 2 is assumed to be a confidential message which needs to
+be kept as secret as possible from receiver 1, which is viewed as an
+eavesdropper with regard to message 2. The level of secrecy is measured by the
+equivocation rate. A single-letter expression for the capacity-equivocation
+region of the discrete memoryless cognitive interference channel is established
+and is further explicitly derived for the Gaussian case. Moreover,
+particularizing the capacity-equivocation region to the case without a secrecy
+constraint, establishes a new capacity theorem for a class of interference
+channels, by providing a converse theorem."
+"A solvable model of the genesis of amino-acid sequences via coupled
+  dynamics of folding and slow genetic variation","We study the coupled dynamics of primary and secondary structure formation
+(i.e. slow genetic sequence selection and fast folding) in the context of a
+solvable microscopic model that includes both short-range steric forces and and
+long-range polarity-driven forces. Our solution is based on the diagonalization
+of replicated transfer matrices, and leads in the thermodynamic limit to
+explicit predictions regarding phase transitions and phase diagrams at genetic
+equilibrium. The predicted phenomenology allows for natural physical
+interpretations, and finds satisfactory support in numerical simulations."
+"A quantitative comparison of sRNA-based and protein-based gene
+  regulation","Small, non-coding RNAs (sRNAs) play important roles as genetic regulators in
+prokaryotes. sRNAs act post-transcriptionally via complementary pairing with
+target mRNAs to regulate protein expression. We use a quantitative approach to
+compare and contrast sRNAs with conventional transcription factors (TFs) to
+better understand the advantages of each form of regulation. In particular, we
+calculate the steady-state behavior, noise properties, frequency-dependent gain
+(amplification), and dynamical response to large input signals of both forms of
+regulation. While the mean steady-state behavior of sRNA-regulated proteins
+exhibits a distinctive tunable threshold-linear behavior, our analysis shows
+that transcriptional bursting leads to significantly higher intrinsic noise in
+sRNA-based regulation than in TF-based regulation in a large range of
+expression levels and limits the ability of sRNAs to perform quantitative
+signaling. Nonetheless, we find that sRNAs are better than TFs at filtering
+noise in input signals. Additionally, we find that sRNAs allow cells to respond
+rapidly to large changes in input signals. These features suggest a niche for
+sRNAs in allowing cells to transition quickly yet reliably between distinct
+states. This functional niche is consistent with the widespread appearance of
+sRNAs in stress-response and quasi-developmental networks in prokaryotes."
+Spin models as microfoundation of macroscopic financial market models,"Macroscopic price evolution models are commonly used for investment
+strategies. There are first promising achievements in defining microscopic
+agent based models for the same purpose. Microscopic models allow a deeper
+understanding of mechanisms in the market than the purely phenomenological
+macroscopic models, and thus bear the chance for better models for market
+regulation. We exemplify this strategy in a case study, deducing a macroscopic
+Langevin equation from a microscopic spin market model closely related to the
+Ising model. The interplay of the microscopic and the macroscopic view allows
+for a better understanding of the microscopic model, as well, and may guide the
+construction of agent based market models as basis of macroscopic price models."
+"Species competition: coexistence, exclusion and clustering","We present properties of Lotka-Volterra equations describing ecological
+competition among a large number of competing species. First we extend to the
+case of a non-homogeneous niche space stability conditions for solutions
+representing species coexistence. Second, we discuss mechanisms leading to
+species clustering and obtain an analytical solution for a lumped state in a
+specific instance of the system. We also discuss how realistic ecological
+interactions may result in different types of competition coefficients."
+"AKARI Detection of the Infrared-Bright Supernova Remnant B0104-72.3 in
+  the Small Magellanic Cloud","We present a serendipitous detection of the infrared-bright supernova remnant
+(SNR) B0104-72.3 in the Small Magellanic Cloud by the Infrared Camera (IRC)
+onboard AKARI. An elongated, partially complete shell is detected in all four
+observed IRC bands covering 2.6-15 um. The infrared shell surrounds radio,
+optical, and X-ray emission associated with the SNR and is probably a radiative
+SNR shell. This is the first detection of a SNR shell in this near/mid-infrared
+waveband in the Small Magellanic Cloud. The IRC color indicates that the
+infrared emission might be from shocked H2 molecules with some possible
+contributions from ionic lines. We conclude that B0104-72.3 is a middle-aged
+SNR interacting with molecular clouds, similar to the Galactic SNR IC 443. Our
+results highlight the potential of AKARI IRC observations in studying SNRs,
+especially for diagnosing SNR shocks."
+"Fermi Surface Reconstruction without Breakdown of Kondo Screening at
+  Quantum Critical Point","Motivated by recent Hall-effect experiment in YbRh$_2$Si$_2$, we study ground
+state properties of a Kondo lattice model in a two-dimensional square lattice
+using variational Monte Carlo method. We show that there are two types of phase
+transition, antiferromagnetic transition and topological one (Fermi surface
+reconstruction). In a wide region of parameters, these two transitions occur
+simultaneously without the breakdown of Kondo screening, accompanied by a
+discontinuous change of the Hall coefficient. This result is consistent with
+the experiment and gives a novel theoretical picture for the quantum critical
+point in heavy fermion systems."
+"Analysis and Design of Cost-Effective, High-Throughput LDPC Decoders","This paper introduces a new approach to cost-effective, high-throughput
+hardware designs for Low Density Parity Check (LDPC) decoders. The proposed
+approach, called Non-Surjective Finite Alphabet Iterative Decoders (NS-FAIDs),
+exploits the robustness of message-passing LDPC decoders to inaccuracies in the
+calculation of exchanged messages, and it is shown to provide a unified
+framework for several designs previously proposed in the literature. NS-FAIDs
+are optimized by density evolution for regular and irregular LDPC codes, and
+are shown to provide different trade-offs between hardware complexity and
+decoding performance. Two hardware architectures targeting high-throughput
+applications are also proposed, integrating both Min-Sum (MS) and NS-FAID
+decoding kernels. ASIC post synthesis implementation results on 65nm CMOS
+technology show that NS-FAIDs yield significant improvements in the throughput
+to area ratio, by up to 58.75% with respect to the MS decoder, with even better
+or only slightly degraded error correction performance."
+Crossed products by finite group actions with the Rokhlin property,"We prove that a number of classes of separable unital C*-algebras are closed
+under crossed products by finite group actions with the Rokhlin property,
+including:
+  (1) AI algebras, AT algebras, and related classes characterized by direct
+limit decompositions using semiprojective building blocks.
+  (2) Simple unital AH algebras with slow dimension growth and real rank zero.
+  (3) C*-algebras with real rank zero or stable rank one.
+  (4) C*-algebras whose quotients all satisfy the Universal Coefficient
+Theorem.
+  Along the way, we give a systematic treatment of the derivation of direct
+limit decompositions from local approximation conditions by homomorphic images
+which are not necessarily injective."
+Weighted Trade Network in a Model of Preferential Bipartite Transactions,"Using a model of wealth distribution where traders are characterized by
+quenched random saving propensities and trade among themselves by bipartite
+transactions, we mimic the enhanced rates of trading of the rich by introducing
+the preferential selection rule using a pair of continuously tunable
+parameters. The bipartite trading defines a growing trade network of traders
+linked by their mutual trade relationships. With the preferential selection
+rule this network appears to be highly heterogeneous characterized by the
+scale-free nodal degree and the link weight distributions and presents
+signatures of non-trivial strength-degree correlations. With detailed numerical
+simulations and using finite-size scaling analysis we present evidence that the
+associated critical exponents are continuous functions of the tuning
+parameters. However the wealth distribution has been observed to follow the
+well-known Pareto law robustly for all positive values of the tuning
+parameters."
+Opportunistic Communications in an Orthogonal Multiaccess Relay Channel,"The problem of resource allocation is studied for a two-user fading
+orthogonal multiaccess relay channel (MARC) where both users (sources)
+communicate with a destination in the presence of a relay. A half-duplex relay
+is considered that transmits on a channel orthogonal to that used by the
+sources. The instantaneous fading state between every transmit-receive pair in
+this network is assumed to be known at both the transmitter and receiver. Under
+an average power constraint at each source and the relay, the sum-rate for the
+achievable strategy of decode-and-forward (DF) is maximized over all power
+allocations (policies) at the sources and relay. It is shown that the sum-rate
+maximizing policy exploits the multiuser fading diversity to reveal the
+optimality of opportunistic channel use by each user. A geometric
+interpretation of the optimal power policy is also presented."
+High Energy Afterglow from Gamma-ray Bursts,"We calculate the very high energy (sub-GeV to TeV) inverse Compton emission
+of GRB afterglows. We argue that this emission provides a powerful test of the
+currently accepted afterglow model. We focus on two processes: synchrotron
+self-Compton (SSC) emission within the afterglow blast wave, and external
+inverse Compton (EIC) emission which occurs when flare photons (produced by an
+internal process) pass through the blast wave. We show that if our current
+interpretations of the Swift XRT data are correct, there should be a canonical
+high energy afterglow emission light curve. Our predictions can be tested with
+high energy observatories such as GLAST, Whipple, H.E.S.S. and MAGIC. Under
+favorable conditions we expect afterglow detections in all these detectors."
+Error-free milestones in error prone measurements,"A predictor variable or dose that is measured with substantial error may
+possess an error-free milestone, such that it is known with negligible error
+whether the value of the variable is to the left or right of the milestone.
+Such a milestone provides a basis for estimating a linear relationship between
+the true but unknown value of the error-free predictor and an outcome, because
+the milestone creates a strong and valid instrumental variable. The inferences
+are nonparametric and robust, and in the simplest cases, they are exact and
+distribution free. We also consider multiple milestones for a single predictor
+and milestones for several predictors whose partial slopes are estimated
+simultaneously. Examples are drawn from the Wisconsin Longitudinal Study, in
+which a BA degree acts as a milestone for sixteen years of education, and the
+binary indicator of military service acts as a milestone for years of service."
+Secondary Characteristic Classes on Loop Spaces,"A Riemannian metric on a manifold M induces a family of Riemannian metrics on
+the loop space LM depending on a Sobolev space parameter s. The connection and
+curvature forms of these metrics take values in pseudodifferential operators.
+We develop a theory of Wodzicki-Chern-Simons classes using the s=0, 1
+connections and the Wodzicki residue. These classes distinguish the smooth
+homotopy type of some circle actions on M = S^2 x S^3, and imply that the
+fundamental group of Diff(M) is infinite."
+"Fluctuation dynamo and turbulent induction at low magnetic Prandtl
+  numbers","This paper is a detailed report on a programme of simulations used to settle
+a long-standing issue in the dynamo theory and demonstrate that the fluctuation
+dynamo exists in the limit of large magnetic Reynolds number Rm>>1 and small
+magnetic Prandtl number Pm<<1. The dependence of the critical Rm_c vs. the
+hydrodynamic Reynolds number Re is obtained for 1<Re<6700. In the limit Pm<<1,
+Rm_c is ~3 times larger than for Pm>1. The stability curve Rm_c(Re) (and, it is
+argued, the nature of the dynamo) is substantially different from the case of
+the simulations and liquid-metal experiments with a mean flow. It is not as yet
+possible to determine numerically whether the growth rate is ~Rm^{1/2} in the
+limit Re>>Rm>>1, as should be the case if the dynamo is driven by the
+inertial-range motions. The magnetic-energy spectrum in the low-Pm regime is
+qualitatively different from the Pm>1 case and appears to develop a negative
+spectral slope, although current resolutions are insufficient to determine its
+asymptotic form. At 1<Rm<Rm_c, the magnetic fluctuations induced via the
+tangling by turbulence of a weak mean field are investigated and the
+possibility of a k^{-1} spectrum above the resistive scale is examined. At low
+Rm<1, the induced fluctuations are well described by the quasistatic
+approximation; the k^{-11/3} spectrum is confirmed for the first time in direct
+numerical simulations."
+"1H-NMR Study on the Magnetic Order in the Mixture of Two Spin Gap
+  Systems (CH3)2CHNH3CuCl3 and (CH3)2CHNH3CuBr3","The antiferromagnetic ordering in the solid-solution of the two spin-gap
+systems (CH3)2CHNH3CuCl3 and (CH3)2CHNH3CuBr3 has been investigated by 1H-NMR.
+The sample with the Cl-content ratio x=0.85 showed a clear splitting in spectra
+below TN=13.5 K, where the spin-lattice relaxation rate T1-1 showed a diverging
+behavior. The critical exponent of the temperature dependence of the hyperfine
+field is found to be 0.33."
