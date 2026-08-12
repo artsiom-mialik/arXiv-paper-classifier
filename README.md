@@ -38,4 +38,3 @@ A Streamlit application allows users to enter a paper title and/or abstract and 
 * `training.ipynb` — data preparation, model training and evaluation
 * `app.py` — Streamlit application
 * `test_examples.csv` — example papers for testing the app
-* `requirements.txt` — project dependencies
